@@ -5,7 +5,7 @@
 # WHY:  allowlist by COMMIT, never by the matched secret VALUE.
 
 [extend]
-useDefault = true
+path = "/home/ubuntu/.local/share/tech-center-git-hooks/shared-gitleaks-base.toml"
 
 [allowlist]
 # Confirmed false-positive classes:
